@@ -1,0 +1,43 @@
+## Dotnet gitignore
+
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio / Rider / JetBrains
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# MSBuild
+*.log
+
+# Publish
+publish/
+PublishProfiles/
+
+# ASP.NET
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# dotnet tool manifest (optional, keep if you want)
+# .config/dotnet-tools.json
